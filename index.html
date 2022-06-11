@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY IS MONEY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     
+    <h1 class = "text-center " >Total income and total expenses</h1>
+    <br>
+    <br>
+    <!-- calculator Picture -->
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body ">
+              <img class ="w-100" src="gggg.jpg" alt="Responsive image">
+            </div>
+          </div>
+        </div>
+        <!-- income -->
+        <div class="col-sm-6 text-center  ">
+          <div class="card">
+            <div class="card-body bg-light">
+              <h5 class="p-4">Income</h5>
+             <p  class="p-4 ">income: <input id="income-input"class="" type="text"></p>
+             <h5 class ="p-4">Expenses</h5>
+             <p class=" p-4">Food:   <input  id="food-Expenses" class="" type="text"></p>
+             <p  class=" p-4 ">Rent:   <input id="rent-Expenses" class="" type="text"></p>
+             <p  class=" p-2 ">Clothes:<input  id="Clothes-Expenses"class="" type="text"></p>
+              <button id="calulate-button"   class="bg-primary rounded">Calculate</button>
+              <br>
+              <h1 id="error" class="error1" >error!!</h1>
+              <h4>Total Expenses : <span id="total-Expenses">00</span></h4>
+              <h4 >Balance : <span id="total-Balance">00</span>  </h4>
+             <div class="d-flex justify-content-center" > <p class=" ">Save: <input    id="save-input"    
+               class="" type="text">  %</p> <button id="save-button" class="bg-primary rounded" >Save</button></div>
+             <h4 >Saving Amaount : <span id="total-save">00</span> </h4>
+             <h4 >Remaining Balance:  <span id="total-Remaining">00</span> </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/money.js"></script>
+</body>
+</html>
